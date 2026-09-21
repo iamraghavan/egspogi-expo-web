@@ -82,7 +82,8 @@ On this workspace, sandboxed Node/browser writes can return EPERM. Request the n
 - Secret-guard regression test passed: placeholder acceptance, staged-token rejection, local credential matching and no matched-value logging.
 - Browser bundle audit passed for 88 files; no configured secret patterns or local private credentials found.
 - Server restarted at the user's request; homepage and admin login both returned HTTP 200 at localhost:3000.
-- Remote synchronization and final history audit are recorded below when completed.
+- GitHub integration complete: source published on `main` at https://github.com/iamraghavan/egspogi-expo-web. The fetched Git tree exactly matched the audited 134-file local index. Local `main` tracks `origin/main`; repository history passed the secret scan. No real environment files, initial-access credentials or generated assets were uploaded.
+- Final build after accessibility fixes passed, including TypeScript; lint passed. The server remains running for the user.
 
 ## Remaining launch decisions and practical limits
 
